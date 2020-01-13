@@ -41,9 +41,9 @@ train_data_1.sort(key = lambda train_data_1: train_data_1[1]) #sorting the list 
 avrg=0
 for i in range(k):
     avrg=avrg+(train_data_1[i][len(train_data_1)-1])
-    
+output=avrg/k      
 #output when k=2
-avrg
+output
 
 
 
